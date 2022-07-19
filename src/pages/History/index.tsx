@@ -21,7 +21,9 @@ export function History() {
                 <td>Tarefa 01</td>
                 <td>20 minutos</td>
                 <td>Há cerca de 2 meses</td>
-                <td>Concluído</td>
+                <td>
+                  <H.Status statusColor="green">Concluído</H.Status>
+                </td>
               </tr>
             ))}
           </tbody>
